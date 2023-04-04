@@ -4,6 +4,7 @@ import { ApolloProvider } from "@apollo/client";
 import { Merchant } from "./merchant";
 import { Login } from "./login";
 import { Register } from "./register";
+import List from "./list";
 const client = new ApolloClient({
   uri: "http://localhost:3333/graphql",
   cache: new InMemoryCache(),
@@ -11,7 +12,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Merchant />
+      <List />
     </ApolloProvider>
   );
 }
