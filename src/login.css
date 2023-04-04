@@ -70,3 +70,11 @@
     background: white;
   }
 }
+@media (max-width: 1025px) {
+  .image-display {
+    display: none;
+  }
+  .image-align {
+    display: contents;
+  }
+}
