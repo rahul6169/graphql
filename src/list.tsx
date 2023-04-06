@@ -46,7 +46,7 @@ const List: React.FC = () => {
   const getRowClassName = (record: DataType, index: number) =>
     index === 0 ? "blue-row" : "";
   return (
-    <Table dataSource={data} rowClassName={getRowClassName}>
+    <Table className="table" dataSource={data} rowClassName={getRowClassName}>
       <Column title="First Name" dataIndex="firstName" key="firstName" />
       <Column title="Last Name" dataIndex="lastName" key="lastName" />
       <Column title="contactType" dataIndex="contactType" key="contactType" />
