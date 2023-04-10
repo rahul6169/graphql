@@ -7,7 +7,6 @@ interface DataType {
   lastName: string;
   age: number;
   contactType: string;
-
   address: string;
   tags: string[];
 }
