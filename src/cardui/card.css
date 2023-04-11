@@ -55,13 +55,14 @@ h5 {
 }
 
 .plus-background {
-  background-color: lightgreen;
+  background-color: #31b181;
   border-radius: 50%;
   padding: 10px;
   align-items: center;
   display: flex;
   margin-bottom: 10px;
 }
+
 .plus-icon {
   justify-content: space-between;
   display: flex;
@@ -101,4 +102,16 @@ h5 {
 }
 input {
   padding: 10px;
+}
+.dropdown-color {
+  color: #2b3134;
+}
+.dropdown-arrow {
+  color: #6f91a8;
+}
+.status-dropdown-color {
+  color: #31b181;
+}
+.unassigned-dropdown-color {
+  color: #da5042;
 }
