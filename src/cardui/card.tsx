@@ -31,7 +31,7 @@ const CardUi: React.FC = () => {
   const items: MenuProps["items"] = [
     {
       key: "1",
-      label: "Item 1",
+      label: "rahuds",
     },
     {
       key: "2",
