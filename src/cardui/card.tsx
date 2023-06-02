@@ -39,7 +39,7 @@ const CardUi: React.FC = () => {
     },
     {
       key: "3",
-      label: "Item 3",
+      label: "Iteasdasm 3",
     },
   ];
 
