@@ -3,11 +3,11 @@ name: Format Code
 on:
   push:
     branches:
-      - main # Adjust to your main branch name
+      - master # Adjust to your main branch name
 
 jobs:
   format-code:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest # Change the runs-on value to windows-latest
 
     steps:
       - name: Checkout code
@@ -25,11 +25,11 @@ jobs:
         run: npx prettier --write "src/**/*.ts" "src/**/*.tsx"
 
       - name: Commit changes
-       run: |
-    git config user.name "rahul6169"
-    git config user.email "rahulbalakrishnan6169@gmail.com"
-    git add .
-    git commit -m "Auto-format code" --no-verify
+        run: |
+          git config user.name "rahul6169"
+          git config user.email "rahulbalakrishnan6169@gmail.com"
+          git add .
+          git commit -m "Auto-format code" --no-verify
 
       - name: Push changes
         uses: ad-m/github-push-action@master

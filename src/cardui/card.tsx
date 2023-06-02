@@ -35,7 +35,7 @@ const CardUi: React.FC = () => {
     },
     {
       key: "2",
-      label: "Item 2",
+      label: "Itedfm 2",
     },
     {
       key: "3",
