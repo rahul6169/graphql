@@ -16,17 +16,11 @@ const CardUi: React.FC = () => {
 
   const projectEmployeeList = [1, 2, 3, 4, 5, 6];
 
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
+  const showModal = () => setIsModalVisible(true)
 
-  const handleOk = () => {
-    setIsModalVisible(false);
-  };
+  const handleOk = () => setIsModalVisible(false);
 
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
+  const handleCancel = () => setIsModalVisible(false);
 
   const items: MenuProps["items"] = [
     {
@@ -39,6 +33,10 @@ const CardUi: React.FC = () => {
     },
     {
       key: "3",
+      label: "Iteasdasm 3  ",
+    },
+    {
+      key: "4",
       label: "Iteasdasm 3  ",
     },
   ];
